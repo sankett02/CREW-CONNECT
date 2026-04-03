@@ -1,0 +1,44 @@
+=== USERS (30) ===
+[CREATOR] test_creator@example.com | verified: true | created: 2026-03-11
+[BRAND] test_brand@example.com | verified: true | created: 2026-03-11
+[CREATOR] vu1f2223030@pvppcoe.ac.in | verified: true | created: 2026-03-11
+[CREATOR] sanket@gmail.com | verified: false | created: 2026-03-05
+[BRAND] sankett@gmail.com | verified: false | created: 2026-03-05
+[WRITER] sunil@gmail.com | verified: false | created: 2026-03-05
+[EDITOR] sunill@gmail.com | verified: false | created: 2026-03-05
+[BRAND] sanket@gmai.com | verified: false | created: 2026-03-05
+[BRAND] brand@test.com | verified: false | created: 2026-03-05
+[EDITOR] editor@test.com | verified: false | created: 2026-03-05
+[EDITOR] editor2@test.com | verified: false | created: 2026-03-05
+[ADMIN] sanket123@gmail.com | verified: true | created: 2026-03-05
+[ADMIN] sunil123@gmail.com | verified: false | created: 2026-03-05
+[CREATOR] raj123@gmail.com | verified: false | created: 2026-03-06
+[CREATOR] sanket.ambre0002@gmail.com | verified: false | created: 2026-03-06
+[CREATOR] vu1f2223026@pvppcoe.ac.in | verified: true | created: 2026-03-06
+[CREATOR] raj.sangle@gmail.com | verified: false | created: 2026-03-06
+[CREATOR] sangle@gmail.com | verified: false | created: 2026-03-06
+[BRAND] yash@gmail.com | verified: false | created: 2026-03-06
+[CREATOR] sanket.ambre2005@gmail.com | verified: true | created: 2026-03-06
+[CREATOR] creator_test_123@example.com | verified: false | created: 2026-03-07
+[BRAND] brand_test_456@example.com | verified: false | created: 2026-03-07
+[CREATOR] test-otp@example.com | verified: false | created: 2026-03-07
+[CREATOR] verify-me@example.com | verified: false | created: 2026-03-07
+[BRAND] testbrand@example.com | verified: false | created: 2026-03-07
+[CREATOR] test_creator_1@example.com | verified: false | created: 2026-03-08
+[WRITER] sch42377@gmail.com | verified: true | created: 2026-03-08
+[EDITOR] shweta@gmail.com | verified: false | created: 2026-03-09
+[EDITOR] cmashweta.ambre2025@gmail.com | verified: true | created: 2026-03-09
+[EDITOR] rajsangle826@gmail.com | verified: true | created: 2026-03-10
+
+=== PROJECTS (11) ===
+[ACTIVE] Test Earnings Project
+[ACTIVE] Test Earnings Project
+[DRAFT] Airbnb Content Creator
+[COMPLETED] Ekisan
+[COMPLETED] edit reel 
+[ACTIVE] Test Project For Escrow
+[ACTIVE] podcast
+[COMPLETED] Dream Workspace Setup
+[COMPLETED] Animation video 
+[COMPLETED] E2E Test Project - Full Design
+[ACTIVE] Enchanted Realms: Cinematic Animation Video Production

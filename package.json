@@ -1,0 +1,16 @@
+{
+    "name": "startup",
+    "private": true,
+    "workspaces": [
+        "frontend",
+        "backend"
+    ],
+    "scripts": {
+        "dev:backend": "cd backend && npm run dev",
+        "dev:frontend": "npm run dev --workspace=frontend",
+        "build": "npm run build --workspaces",
+        "lint": "npm run lint --workspace=backend && npm run lint --workspace=frontend",
+        "test": "npm run test --workspace=backend && npm run test --workspace=frontend",
+        "format": "npm run format --workspace=backend && npm run format --workspace=frontend"
+    }
+}
