@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
-import { LogOut, LayoutDashboard, Menu, X, User, Shapes } from 'lucide-react';
+import { LogOut, Menu, X, Shapes } from 'lucide-react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
 
 const Navbar: React.FC = () => {
-    const { user, logout, viewMode, toggleViewMode } = useAuth();
+    const { user, logout } = useAuth();
     const navigate = useNavigate();
     const location = useLocation();
     const [mobileOpen, setMobileOpen] = useState(false);
