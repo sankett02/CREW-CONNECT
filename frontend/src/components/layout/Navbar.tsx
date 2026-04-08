@@ -10,21 +10,11 @@ const Navbar: React.FC = () => {
     const location = useLocation();
     const [mobileOpen, setMobileOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-    const [unreadCount, setUnreadCount] = useState(0);
 
     const fetchNotifications = React.useCallback(async () => {
         if (!user) return;
         try {
-            const res = await axios.get('/api/projects/applications/me/notifications-count').catch(() => ({ data: { count: 0 } }));
-            // Note: fallback to basic application fetch if notification endpoint doesn't exist
-            let count = 0;
-            if (res.data && typeof res.data.count === 'number') {
-                count = res.data.count;
-            } else {
-                const apps = await axios.get('/api/projects/applications/me');
-                count = apps.data.filter((a: any) => a.type === 'INVITATION' && a.status === 'PENDING').length;
-            }
-            setUnreadCount(count);
+            await axios.get('/api/projects/applications/me/notifications-count').catch(() => null);
         } catch (err) {
             console.error('Failed to fetch nav notifications', err);
         }
